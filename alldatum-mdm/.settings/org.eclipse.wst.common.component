@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="alldatum-mdm">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/src/main/ImportedClasses"/>
+        <dependent-module archiveName="memory-measurer.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/memory-measurer/memory-measurer">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsr305.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jsr305/jsr305">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="guava-r09.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/guava-r09/guava-r09">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="alldatum-mdm"/>
+        <property name="java-output-path" value="/alldatum-mdm/build/classes"/>
+    </wb-module>
+</project-modules>
